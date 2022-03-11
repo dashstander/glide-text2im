@@ -1,0 +1,19 @@
+name: glide
+channels:
+    - pytorch
+    - conda-forge
+    - defaults
+dependencies:
+    - python>=3.9
+    - pip>=22
+    - pytorch>=1.9
+    - Pillow
+    - pip:
+        - attrs
+        - filelock
+        - requests
+        - tqdm
+        - ftfy
+        - polars
+        - regex
+
